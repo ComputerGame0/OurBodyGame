@@ -48,6 +48,9 @@
 הקוד האחראי על העברת שלב:<br />
 [ניתן לראות ע"י הקוד הבא:](https://github.com/ComputerGame0/Our_Body_30Sec/blob/main/Assets/Scripts/3-objects/NextLevel.cs) <br />
 
+הקוד האחראי על מסך בחירת השלב:<br />
+[ניתן לראות ע"י הקוד הבא:](https://github.com/ComputerGame0/OurBodyGame/blob/main/Assets/Scripts/3-objects/ClickOnLevel.cs) <br />
+
 על החיידקים הרעים ישנו קוד האחראי על תזוזתם<br />
 החיידיקם מתקרבים לשחקן<br /> 
 
@@ -56,6 +59,9 @@
 בנוסף במשחק יש 2 רכיבי טקסט:<br />
 אחד האחראי על הסבר המשחק<br />
 והשני אחראי על הצגת נקודות השחקן<br />
+
+בסיום כל שלב השחקן מקבל תמונת מצב של ניקודו בשלב<br />
+[ניתן לראות ע"י הקוד הבא:](https://github.com/ComputerGame0/OurBodyGame/blob/main/Assets/Scripts/3-objects/GetInfo.cs) <br />
 
 [ הסבר המשחק:](https://github.com/ComputerGame0/Our_Body_30Sec/blob/main/Assets/Scripts/4-Text/ShowText.cs) <br />
 
