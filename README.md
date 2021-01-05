@@ -8,7 +8,7 @@
   
  <br /> 
   
-במטלה זו אנחנו מציגות  כמה שניות מהמשחק הסופי שלנו <br />
+במטלה זו אנחנו מציגות את המשחק הסופי שלנו <br />
 במשחק יש לנו: <br />
 שחקן <br /> 
 חיידקים טובים <br />
@@ -21,8 +21,6 @@
 להיזהר לא להפגע מהחיידקים הרעים<br />
 ולאסוף כמה שיותר חיידקיים טובים על מנת לעבור לשלב הבא.<br />
 <br />
-במטלה זו הראנו שלב התחלתי<br />
-להכרות עם המשחק<br />
 
 השחקן זז בעזרת מקדי המקדלת<br />
 הוא יכול להסתכל לצדדים ע"י הזזת עכבר.<br />
@@ -60,8 +58,10 @@
 אחד האחראי על הסבר המשחק<br />
 והשני אחראי על הצגת נקודות השחקן<br />
 
-בסיום כל שלב השחקן מקבל תמונת מצב של ניקודו בשלב<br />
-[ניתן לראות ע"י הקוד הבא:](https://github.com/ComputerGame0/OurBodyGame/blob/main/Assets/Scripts/3-objects/GetInfo.cs) <br />
+בסיום כל שלב השחקן מקבל תמונת מצב של ניקודו בשלב ואת כמות הכוכבים שקיבל בהתאם לניקוד<br />
+[הצגת הניקוד:](https://github.com/ComputerGame0/OurBodyGame/blob/main/Assets/Scripts/3-objects/GetInfo.cs) <br />
+
+[הצגת כוכבים:](https://github.com/ComputerGame0/OurBodyGame/blob/main/Assets/Scripts/3-objects/ShowStars.cs) <br />
 
 [ הסבר המשחק:](https://github.com/ComputerGame0/Our_Body_30Sec/blob/main/Assets/Scripts/4-Text/ShowText.cs) <br />
 
