@@ -11,6 +11,10 @@ TagManager:
   - ToLevel1
   - Double
   - ToLevel2
+  - Blue
+  - Black
+  - Yellow
+  - ToLevel3
   layers:
   - Default
   - TransparentFX

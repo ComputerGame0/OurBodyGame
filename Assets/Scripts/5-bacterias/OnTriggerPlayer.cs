@@ -11,7 +11,7 @@ public class OnTriggerPlayer : MonoBehaviour
 
     [SerializeField] string triggeringTag_good;
     [SerializeField] string triggeringTag_bad;
-    [SerializeField] string triggeringTag_double;
+    [SerializeField] string triggeringTag_white;
 
     [SerializeField] string sceneName;
 
@@ -22,16 +22,20 @@ public class OnTriggerPlayer : MonoBehaviour
     [SerializeField] GameObject heartMiddle;
     */
     [SerializeField] public Text Score_Text = null;
+    [SerializeField] public Text Score_Text_White = null;
+
     public static int Score;
+    public static int Scorewhite;
+
 
     void OnTriggerEnter(Collider collision)
     {
-        if (collision.tag == triggeringTag_double)
+        if (collision.tag == triggeringTag_white)
         {
 
             Destroy(collision.gameObject);
-            Score = Score + 2;
-            Score_Text.text = "Score:" + Score;
+            Scorewhite = Scorewhite + 1;
+            Score_Text_White.text = "" + Scorewhite;
         }
         if (collision.tag == triggeringTag_good)
         {
@@ -39,7 +43,7 @@ public class OnTriggerPlayer : MonoBehaviour
             Debug.Log(collision.gameObject.name);
             Destroy(collision.gameObject);
             Score = Score + 1;
-            Score_Text.text = "Score:" + Score;
+            Score_Text.text = "" + Score;
         }
         if (collision.tag == triggeringTag_bad)
         {
@@ -47,6 +51,7 @@ public class OnTriggerPlayer : MonoBehaviour
             if (Heart[0] != null) 
             {
                 Destroy(Heart[0].gameObject);
+                Destroy(collision.gameObject);
             }
             else
             {
@@ -55,6 +60,8 @@ public class OnTriggerPlayer : MonoBehaviour
                 {
                     
                     Destroy(Heart[1].gameObject);
+                    Destroy(collision.gameObject);
+
                 }
                 else
                 {
@@ -62,7 +69,9 @@ public class OnTriggerPlayer : MonoBehaviour
                     {
                       
                         Destroy(Heart[2].gameObject);
+                        Destroy(collision.gameObject);
                         Score = 0;
+                        Scorewhite = 0;
                         SceneManager.LoadScene(sceneName);
                     }
                 }

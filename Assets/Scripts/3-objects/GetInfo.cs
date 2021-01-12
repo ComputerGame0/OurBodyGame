@@ -8,19 +8,20 @@ public class GetInfo : MonoBehaviour
 {
     [SerializeField] Text infoForPlayer;
     [SerializeField] public int PointForOneStar = 0;
-
+    public int show = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-        infoForPlayer.text = "Your level score: " + OnTriggerPlayer.Score;
+        show = OnTriggerPlayer.Score + OnTriggerPlayer.Scorewhite * 2;
+        infoForPlayer.text = "Your level score: " + show;
     }
 
 
     // Update is called once per frame
     void Update()
     {
-        if(OnTriggerPlayer.Score< PointForOneStar)
+        if(show <= PointForOneStar)
         {
             infoForPlayer.text = "Your score is low!\nTry again :(\n";
         }

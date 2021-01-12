@@ -16,11 +16,9 @@ public class ShowText : MonoBehaviour
     IEnumerator ShowMessage(float delay)
     {
         yield return new WaitForSeconds(delay);
-        set1.text = "*Use the arrow keys to move < > ^\n * Navigate your gaze by moving the mouse\n";
+        set1.text = "*Use the arrow keys to move < > ^\n*Use the shift button to increase the player's speed.\n";
         yield return new WaitForSeconds(delay);
-        set1.text = "*Collect as many good bacteria as possible and beware of the bad ones\n*Use the shift button to increase the player's speed.\n";
-        yield return new WaitForSeconds(delay*2);
-        set1.text = "\n\n\nGood luck!";
+        set1.text = "\n\nGood luck!";
         yield return new WaitForSeconds(delay);
 
         Destroy(set1);

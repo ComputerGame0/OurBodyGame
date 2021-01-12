@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class ShowFirstScreen : MonoBehaviour
 {
     [SerializeField] string sceneName;
+    [SerializeField] GameObject skip;
+
     [SerializeField] float delay=0;
     // Start is called before the first frame update
     void Start()
@@ -24,6 +26,23 @@ public class ShowFirstScreen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetMouseButton(0))
+        {
+            Ray rayFromCameraToClickPosition = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+            RaycastHit hitInfo;
+            bool hasHit = Physics.Raycast(rayFromCameraToClickPosition, out hitInfo);
+            if (hasHit)
+            {
+                if (hitInfo.collider.tag == skip.tag)
+                {
+              
+                    SceneManager.LoadScene(sceneName);
+                }
+                
+
+            }
+        }
+
     }
 }

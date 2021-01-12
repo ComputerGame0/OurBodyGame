@@ -516,9 +516,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Score: 0
-  PointForOneStar: 8
-  PointForTwoStars: 12
-  PointForThreeStars: 15
+  ScoreWhite: 0
+  PointForOneStar: 2
+  PointForTwoStars: 5
+  PointForThreeStars: 10
   OneStar: {fileID: 17921973}
   TwoStar: {fileID: 709755665}
   ThreeStar: {fileID: 510812035}
@@ -930,7 +931,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   infoForPlayer: {fileID: 1696973321}
-  PointForOneStar: 8
+  PointForOneStar: 2
+  show: 0
 --- !u!114 &1696973321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1194,7 +1196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d1708f51ea50604e85b8f3f2df9dd45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Level
+  sceneName: MovieAfterlevel2
   delay: 5
 --- !u!114 &1991889697
 MonoBehaviour:
@@ -1203,12 +1205,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1991889691}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef02027b1ee0052489322cbc3a269248, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Score: 0
   sceneName: Level12
-  sceneNamePass: Level123
+  sceneNamePass: MovieAfterlevel2
   Show_time: 3
+  wholeScore: 0

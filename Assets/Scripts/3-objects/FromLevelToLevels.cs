@@ -9,12 +9,14 @@ public class FromLevelToLevels : MonoBehaviour
     public int Score = 0;
     [SerializeField] public string sceneName=null;
      [SerializeField] public string sceneNamePass=null;
-     [SerializeField] float Show_time = 2f;
+    [SerializeField] float Show_time = 2f;
+    public int wholeScore = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-        Score = OnTriggerPlayer.Score;
+        wholeScore = OnTriggerPlayer.Score+ OnTriggerPlayer.Scorewhite*2;
+        Score = wholeScore;
         if (Score >= 8)
         {
             StartCoroutine(ShowMessage(Show_time, sceneNamePass));
@@ -29,6 +31,7 @@ public class FromLevelToLevels : MonoBehaviour
         yield return new WaitForSeconds(delay);
         Debug.Log("name= " + sceneNamenext);
         OnTriggerPlayer.Score = 0;
+        OnTriggerPlayer.Scorewhite = 0;
         SceneManager.LoadScene(sceneNamenext);
 
     }

@@ -9,6 +9,7 @@ using UnityEngine.UI;
 public class ShowStars : MonoBehaviour
 {
     public int Score = 0;
+    public int ScoreWhite = 0;
     [SerializeField] public int PointForOneStar = 0;
     [SerializeField] public int PointForTwoStars = 0;
     [SerializeField] public int PointForThreeStars = 0;
@@ -21,22 +22,24 @@ public class ShowStars : MonoBehaviour
     void Start()
     {
         Score = OnTriggerPlayer.Score;
+        ScoreWhite = OnTriggerPlayer.Scorewhite;
+
         OneStar.SetActive(false);
         TwoStar.SetActive(false);
         ThreeStar.SetActive(false);
-        if (Score >= PointForOneStar && Score < PointForTwoStars)
+        if (Score+ ScoreWhite*2 >= PointForOneStar && Score+ ScoreWhite * 2 < PointForTwoStars)
         {
             OneStar.SetActive(true);
         }
         else
-        if (Score >= PointForTwoStars && Score < PointForThreeStars)
+        if (Score + ScoreWhite * 2 >= PointForTwoStars && Score + ScoreWhite * 2 < PointForThreeStars)
         {
             OneStar.SetActive(true);
             TwoStar.SetActive(true);
           
         }
         else
-        if (Score >= PointForThreeStars)
+        if (Score + ScoreWhite * 2 >= PointForThreeStars)
         {
             OneStar.SetActive(true);
             TwoStar.SetActive(true);
