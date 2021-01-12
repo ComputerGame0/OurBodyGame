@@ -24,7 +24,7 @@ public class NextLevelAllBlue : MonoBehaviour
     {
         if (collision.tag == triggeringTag)
         {
-            if (NumOfBlue == 0)
+            if (NumOfBlue < 1)
             {
                 SceneManager.LoadScene(sceneName);
             }
