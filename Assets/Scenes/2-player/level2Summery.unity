@@ -43,7 +43,7 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 11
+  serializedVersion: 12
   m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -118,6 +118,8 @@ NavMeshSettings:
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
@@ -517,7 +519,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Score: 0
   ScoreWhite: 0
-  PointForOneStar: 2
+  PointForOneStar: 1
   PointForTwoStars: 5
   PointForThreeStars: 10
   OneStar: {fileID: 17921973}
@@ -931,7 +933,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   infoForPlayer: {fileID: 1696973321}
-  PointForOneStar: 2
+  PointForOneStar: 1
   show: 0
 --- !u!114 &1696973321
 MonoBehaviour:
@@ -948,6 +950,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.9245283, g: 0.8678355, b: 0.8678355, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1101,7 +1104,6 @@ GameObject:
   - component: {fileID: 1991889693}
   - component: {fileID: 1991889692}
   - component: {fileID: 1991889696}
-  - component: {fileID: 1991889697}
   m_Layer: 0
   m_Name: Quad
   m_TagString: Untagged
@@ -1138,6 +1140,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1162,6 +1165,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &1991889694
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1196,22 +1200,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d1708f51ea50604e85b8f3f2df9dd45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: MovieAfterlevel2
+  sceneName: Level123
   delay: 5
---- !u!114 &1991889697
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1991889691}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef02027b1ee0052489322cbc3a269248, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Score: 0
-  sceneName: Level12
-  sceneNamePass: MovieAfterlevel2
-  Show_time: 3
-  wholeScore: 0

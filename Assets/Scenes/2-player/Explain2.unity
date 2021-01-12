@@ -43,7 +43,7 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 11
+  serializedVersion: 12
   m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -118,6 +118,8 @@ NavMeshSettings:
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
@@ -131,7 +133,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 5f3e87b0926f82f44b01d12109f8eff4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.32
+      value: -2.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5f3e87b0926f82f44b01d12109f8eff4,
         type: 3}
@@ -325,7 +327,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 180f0b69656f67546ba8662bdfa7b160,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.77
+      value: -23.09
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 180f0b69656f67546ba8662bdfa7b160,
         type: 3}
@@ -489,12 +491,12 @@ PrefabInstance:
     - target: {fileID: 6551949253922938462, guid: ddcf1290f8eba164eb68c9f588505af1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.31
+      value: 4.12
       objectReference: {fileID: 0}
     - target: {fileID: 6551949253922938462, guid: ddcf1290f8eba164eb68c9f588505af1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.8
+      value: 0.58
       objectReference: {fileID: 0}
     - target: {fileID: 6551949253922938462, guid: ddcf1290f8eba164eb68c9f588505af1,
         type: 3}
@@ -547,7 +549,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -132.2, y: 16339.5}
+  m_AnchoredPosition: {x: -245, y: 16279}
   m_SizeDelta: {x: 768.9514, y: 545.8988}
   m_Pivot: {x: 0.5, y: 31.1}
 --- !u!114 &740053397
@@ -565,13 +567,14 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.8381542, g: 0.94509804, b: 0.058823526, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 274f9df5fd011824a8bf6274a8615a15, type: 3}
-    m_FontSize: 30
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -625,7 +628,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -132.2, y: 16469.4}
+  m_AnchoredPosition: {x: -246, y: 16469.4}
   m_SizeDelta: {x: 768.9514, y: 545.8988}
   m_Pivot: {x: 0.5, y: 31.1}
 --- !u!114 &872253383
@@ -643,13 +646,14 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.995283, g: 0.9988208, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 274f9df5fd011824a8bf6274a8615a15, type: 3}
-    m_FontSize: 30
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -660,8 +664,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "  Try to take enough \nwhite blood cells,\n                             
-    which belong to the immune system,\n    to fight the infection\n "
+  m_Text: "  Try to take enough \nwhite blood cells,\n             which belong to
+    the immu\n                  system, to fight the infection\n "
 --- !u!222 &872253384
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -805,6 +809,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.9622642, g: 0.9395693, b: 0.9395693, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -968,7 +973,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 129.5, y: 11256.1}
+  m_AnchoredPosition: {x: 324, y: 11144.3}
   m_SizeDelta: {x: 372.98087, y: 377.6836}
   m_Pivot: {x: 0.5, y: 31.1}
 --- !u!114 &1475044349
@@ -986,17 +991,18 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.9528302, g: 0.9483357, b: 0.9483357, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 274f9df5fd011824a8bf6274a8615a15, type: 3}
-    m_FontSize: 33
+    m_FontSize: 49
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 40
+    m_MinSize: 0
+    m_MaxSize: 49
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1046,8 +1052,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 12.2, y: 11742}
-  m_SizeDelta: {x: 449.55722, y: 383.9834}
+  m_AnchoredPosition: {x: -32, y: 11810.1}
+  m_SizeDelta: {x: 674.01636, y: 381.4912}
   m_Pivot: {x: 0.5, y: 31.1}
 --- !u!114 &1653621152
 MonoBehaviour:
@@ -1064,13 +1070,14 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.9622642, g: 0.9395693, b: 0.9395693, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 274f9df5fd011824a8bf6274a8615a15, type: 3}
-    m_FontSize: 30
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -1139,6 +1146,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1163,6 +1171,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &1943985065
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1179,8 +1188,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1943985062}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.8, y: 2.8, z: -10}
-  m_LocalScale: {x: 280.5658, y: 208.20486, z: 1}
+  m_LocalPosition: {x: -32.8, y: -2.4, z: -10}
+  m_LocalScale: {x: 355.73038, y: 218.51137, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -1356,6 +1365,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1380,6 +1390,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &2035033373
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1396,7 +1407,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2035033369}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 58.7, y: -56.2, z: -4.2}
+  m_LocalPosition: {x: 77.73, y: -56.2, z: -4.2}
   m_LocalScale: {x: 50.13297, y: 12.277702, z: 19.629705}
   m_Children: []
   m_Father: {fileID: 0}
