@@ -11,6 +11,10 @@ public class ClickOnLevel : MonoBehaviour
     [SerializeField] string sceneNameLevel1;
     [SerializeField] string sceneNameLevel2;
     [SerializeField] string sceneNameLevel3;
+    [SerializeField] string sceneNameLevel4;
+    [SerializeField] string sceneNameLevel5;
+    [SerializeField] string sceneNameLevel6;
+    [SerializeField] string sceneNameLevel7;
 
 
     // Start is called before the first frame update
@@ -46,6 +50,27 @@ public class ClickOnLevel : MonoBehaviour
                     Debug.Log("level3click");
                     SceneManager.LoadScene(sceneNameLevel3);
                 }
+                if (hitInfo.collider.tag == "ToLevel4")
+                {
+                    Debug.Log("level4click");
+                    SceneManager.LoadScene(sceneNameLevel4);
+                }
+                if (hitInfo.collider.tag == "ToLevel5")
+                {
+                    Debug.Log("level5click");
+                    SceneManager.LoadScene(sceneNameLevel5);
+                }
+                if (hitInfo.collider.tag == "ToLevel6")
+                {
+                    Debug.Log("level6click");
+                    SceneManager.LoadScene(sceneNameLevel6);
+                }
+                if (hitInfo.collider.tag == "ToLevel7")
+                {
+                    Debug.Log("level7click");
+                    SceneManager.LoadScene(sceneNameLevel7);
+                }
+
 
             }
         }

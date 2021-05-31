@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/2-player/Explanation.unity
     guid: 0579e824e7c940948bac09f72809ff08
   - enabled: 1
+    path: Assets/Scenes/2-player/Level0.unity
+    guid: f101eb481749bf64a96a5023d0ce3fc7
+  - enabled: 1
     path: Assets/Scenes/2-player/Level.unity
     guid: ff26a16569697f547b2310fdbaf4b0e6
   - enabled: 1
@@ -42,8 +45,8 @@ EditorBuildSettings:
     path: Assets/Scenes/2-player/level2Summery.unity
     guid: c7b82bdb06d503e4aa005408fa503c92
   - enabled: 0
-    path: Assets/Scenes/2-player/MovieAfterLevel2.unity
-    guid: b4c8c45380ae0f042a7e22d0e34bbb8d
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/2-player/Level123.unity
     guid: c8958b46155143e4ca5709a79a66c1c5
@@ -54,9 +57,39 @@ EditorBuildSettings:
     path: Assets/Scenes/2-player/MovieBeforelevel3.unity
     guid: 2bfe9d6676cbada45bf834db9d2456d2
   - enabled: 1
-    path: Assets/Scenes/2-player/level4.unity
+    path: Assets/Scenes/2-player/Level3.unity
     guid: 492224d7023d6a6489475c6153f163ce
   - enabled: 1
-    path: Assets/Scenes/2-player/level3Summery.unity
+    path: Assets/Scenes/2-player/level3Summery 1.unity
+    guid: 18026e71792a08540ae5aee6a5b850da
+  - enabled: 1
+    path: Assets/Scenes/2-player/level4Summery.unity
     guid: a20afbc3eab7c5e43ae39002ba62e5e8
+  - enabled: 1
+    path: Assets/Scenes/2-player/Level4.unity
+    guid: 9098cd275ede514429f36a120f3a99db
+  - enabled: 1
+    path: Assets/Scenes/2-player/Level1234.unity
+    guid: fa8d848a4870ab24f9281a83fcd5debc
+  - enabled: 1
+    path: Assets/Scenes/2-player/Explain4.unity
+    guid: 99178e727e2f18f44a241789604cecac
+  - enabled: 1
+    path: Assets/Scenes/2-player/Level12345.unity
+    guid: 964a8b65262405a40a5a8f03c09f8ed1
+  - enabled: 1
+    path: Assets/Scenes/2-player/Level5.unity
+    guid: 2180c6b10b6dac3498342f200742ab94
+  - enabled: 1
+    path: Assets/Scenes/2-player/level5Summery.unity
+    guid: 5cf46ac6344a6024192c68eab5f8b52d
+  - enabled: 1
+    path: Assets/Scenes/2-player/Level123456.unity
+    guid: c117ad1457a5075498a17d1e8332a8bb
+  - enabled: 1
+    path: Assets/Scenes/2-player/Level6.unity
+    guid: 7a90d97cc48492e45ac2818f3440281a
+  - enabled: 1
+    path: Assets/Scenes/2-player/level6Summery.unity
+    guid: b01a12af91a2e08478af538360abe6bf
   m_configObjects: {}

@@ -15,6 +15,13 @@ TagManager:
   - Black
   - Yellow
   - ToLevel3
+  - Syringe
+  - ToLevel4
+  - ToLevel5
+  - ToLevel6
+  - Music
+  - Left_arrow
+  - Right_arrow
   layers:
   - Default
   - TransparentFX
