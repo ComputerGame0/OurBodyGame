@@ -29,7 +29,7 @@ public class Turn_Around : MonoBehaviour
             }
             if (this.tag == right_tag)
             {
-                Butterfly.transform.Rotate(0, 0, -15);
+                Butterfly.transform.Rotate(0, 0, -30);
             }
             Destroy(this.gameObject);
 
