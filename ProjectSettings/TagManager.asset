@@ -22,6 +22,9 @@ TagManager:
   - Music
   - Left_arrow
   - Right_arrow
+  - ToLevel8
+  - Stain
+  - ToLevel7
   layers:
   - Default
   - TransparentFX
