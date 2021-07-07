@@ -17,6 +17,7 @@ public class FromLevelToLevels : MonoBehaviour
     {
         wholeScore = OnTriggerPlayer.Score+ OnTriggerPlayer.Scorewhite*2;
         Score = wholeScore;
+        Debug.Log("ScoreLevel 3="+ Score);
         if (Score >= 8)
         {
             StartCoroutine(ShowMessage(Show_time, sceneNamePass));

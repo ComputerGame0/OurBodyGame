@@ -25,6 +25,7 @@ TagManager:
   - ToLevel8
   - Stain
   - ToLevel7
+  - ToLevel9
   layers:
   - Default
   - TransparentFX
