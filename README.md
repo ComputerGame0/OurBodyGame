@@ -48,9 +48,9 @@ DNA <br />
 ![צילום מסך 2021-07-12 221311](https://user-images.githubusercontent.com/57682267/125343126-62443400-e35e-11eb-9b9f-92255267bd35.png)
 <br />
  <br />
-קישור למשחק:  <br />
 <br /> 
-[https://shahar-shira-salome.itch.io/ourbodyfinish](url)  
+[למשחק- לחץ כאן:  
+](https://shahar-shira-salome.itch.io/ourbodyfinish)  
 
 
 
