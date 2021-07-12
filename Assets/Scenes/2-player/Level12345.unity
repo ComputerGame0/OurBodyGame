@@ -464,11 +464,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28bc845e51d887743b52df9c566a22fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneNameLevel1: Explanationresources
-  sceneNameLevel2: Explan2
-  sceneNameLevel3: Explan3
-  sceneNameLevel4: Explan4
-  sceneNameLevel5: Level5
+  sceneNameLevel1: Explain1
+  sceneNameLevel2: Explain2
+  sceneNameLevel3: Explain3
+  sceneNameLevel4: Explain4
+  sceneNameLevel5: Explain5
   sceneNameLevel6: 
   sceneNameLevel7: 
   sceneNameLevel8: 

@@ -78,6 +78,9 @@ EditorBuildSettings:
     path: Assets/Scenes/2-player/Level12345.unity
     guid: 964a8b65262405a40a5a8f03c09f8ed1
   - enabled: 1
+    path: Assets/Scenes/2-player/Explain5.unity
+    guid: 2ae8f75d477b77548baea4c816156f4d
+  - enabled: 1
     path: Assets/Scenes/2-player/Level5.unity
     guid: 2180c6b10b6dac3498342f200742ab94
   - enabled: 1
@@ -86,6 +89,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/2-player/Level123456.unity
     guid: c117ad1457a5075498a17d1e8332a8bb
+  - enabled: 1
+    path: Assets/Scenes/2-player/Explain6.unity
+    guid: 112686bf908112b46b5d60478da1366e
   - enabled: 1
     path: Assets/Scenes/2-player/MovieBeforeLevel6.unity
     guid: e117bd4d9dc1c6044877436ca64938dd
@@ -99,6 +105,9 @@ EditorBuildSettings:
     path: Assets/Scenes/2-player/Level1234567.unity
     guid: 90fd19ed69f7bab40b73dbc089dd073e
   - enabled: 1
+    path: Assets/Scenes/2-player/Explain7.unity
+    guid: ab9aaa8c80c110e4ea2ccae6dee01e0c
+  - enabled: 1
     path: Assets/Scenes/2-player/MovieBeforeLevel7.unity
     guid: 11991d09641bd6d49987ed004c20f4ba
   - enabled: 1
@@ -110,6 +119,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/2-player/Level12345678.unity
     guid: 40902df36ad0865469756622b113f87b
+  - enabled: 1
+    path: Assets/Scenes/2-player/Explain8.unity
+    guid: 6317e1d6a89ccdf47a508f29ff1493d9
   - enabled: 1
     path: Assets/Scenes/2-player/Level8.unity
     guid: 9772a6d429e56254dba304027f358021

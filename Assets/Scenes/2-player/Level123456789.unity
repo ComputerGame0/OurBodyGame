@@ -803,14 +803,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28bc845e51d887743b52df9c566a22fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneNameLevel1: Explanationresources
+  sceneNameLevel1: Explain1
   sceneNameLevel2: Explain2
   sceneNameLevel3: Explain3
   sceneNameLevel4: Explain4
-  sceneNameLevel5: Level5
-  sceneNameLevel6: MovieBeforeLevel6
-  sceneNameLevel7: MovieBeforeLevel7
-  sceneNameLevel8: Level8
+  sceneNameLevel5: Explain5
+  sceneNameLevel6: Explain6
+  sceneNameLevel7: Explain7
+  sceneNameLevel8: Explain8
   sceneNameLevel9: Level9
 --- !u!64 &1645442182
 MeshCollider:
