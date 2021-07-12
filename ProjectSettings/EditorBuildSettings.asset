@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/2-player/Level.unity
     guid: ff26a16569697f547b2310fdbaf4b0e6
   - enabled: 1
-    path: Assets/Scenes/2-player/Explanationresources.unity
+    path: Assets/Scenes/2-player/Explain1.unity
     guid: bede0001ba817c143b9a78120d4b4fa4
   - enabled: 1
     path: Assets/Scenes/2-player/MovieBeforelevel1.unity

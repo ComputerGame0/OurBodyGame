@@ -23,6 +23,7 @@ public class Turn_Around : MonoBehaviour
     {
         if (collision.tag == player)
         {
+            Debug.Log("player->arrow");
             if (this.tag == left_tag)
             {
                 Butterfly.transform.Rotate(0, 0, 30);

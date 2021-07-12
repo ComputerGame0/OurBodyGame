@@ -36,7 +36,6 @@ public class ShowFirstScreen : MonoBehaviour
             {
                 if (hitInfo.collider.tag == skip.tag)
                 {
-              
                     SceneManager.LoadScene(sceneName);
                 }
                 
