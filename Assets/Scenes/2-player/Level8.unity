@@ -4407,6 +4407,7 @@ MonoBehaviour:
   game_over: {fileID: 1190392697}
   sceneName: Level8
   Show_time: 2
+  time: 120
 --- !u!1001 &942329767
 PrefabInstance:
   m_ObjectHideFlags: 0

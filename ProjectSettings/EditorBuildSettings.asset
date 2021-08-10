@@ -134,4 +134,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/2-player/Level9.unity
     guid: 1166aecdad1f5b545a1bcc085b302862
+  - enabled: 1
+    path: Assets/Scenes/2-player/level9Summery.unity
+    guid: 8dc0b462c9e101946b10db8494a21d90
   m_configObjects: {}

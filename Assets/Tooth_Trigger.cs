@@ -5,6 +5,8 @@ using UnityEngine;
 public class Tooth_Trigger : MonoBehaviour
 {
     [SerializeField] string trigger_player;
+    [SerializeField] public static int NumOfBlack = 6;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +23,7 @@ public class Tooth_Trigger : MonoBehaviour
         if (collision.tag == trigger_player)
         {
             Debug.Log("innng");
+            NumOfBlack = NumOfBlack - 1;
             Destroy(this.gameObject);
 
         }

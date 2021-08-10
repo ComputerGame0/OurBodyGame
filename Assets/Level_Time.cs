@@ -9,11 +9,12 @@ public class Level_Time : MonoBehaviour
     [SerializeField] public Text timerText;
     [SerializeField] public Text game_over;
     [SerializeField] string sceneName;
-    [SerializeField] float Show_time = 2f;
+    [SerializeField] float Show_time = 5;
+    [SerializeField] int time;
 
     void Start()
     {
-        StartCoroutine(reloadTimer(120));
+        StartCoroutine(reloadTimer(time));
     }
 
 
@@ -31,8 +32,7 @@ public class Level_Time : MonoBehaviour
 
         StartCoroutine(ShowMessage(Show_time));
 
-        //Load new Scene
-        SceneManager.LoadScene(sceneName);
+        
     }
 
     IEnumerator ShowMessage(float delay)
@@ -40,7 +40,9 @@ public class Level_Time : MonoBehaviour
         timerText.text = "";
         game_over.text = "Game Over\n Time out:(";
         yield return new WaitForSeconds(delay);
-        
+        //Load new Scene
+        SceneManager.LoadScene(sceneName);
+
 
     }
 }

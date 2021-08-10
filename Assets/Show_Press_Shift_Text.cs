@@ -8,6 +8,7 @@ public class Show_Press_Shift_Text : MonoBehaviour
     [SerializeField] public Text set1 = null;
     [SerializeField] float Show_time = 2f;
     int count_left_arrow = 1;
+    int count_right_arrow = 1;
     static int count_shift = 1;
     void Start()
     {
@@ -34,6 +35,13 @@ public class Show_Press_Shift_Text : MonoBehaviour
     IEnumerator ShowImage3(float delay)
     {
         yield return new WaitForSeconds(delay);
+        set1.text = "Press \nRightarrow !";
+        count_right_arrow = 0;
+
+    }
+    IEnumerator ShowImage4(float delay)
+    {
+        yield return new WaitForSeconds(delay);
         set1.text = "";
         
     }
@@ -56,6 +64,14 @@ public class Show_Press_Shift_Text : MonoBehaviour
             set1.text = "Good!";
             count_left_arrow = 1;
             StartCoroutine(ShowImage3(Show_time));
+
+
+        }
+        if (Input.GetKeyDown(KeyCode.RightArrow) && count_right_arrow == 0)
+        {
+            set1.text = "Perfect!";
+            count_right_arrow = 1;
+            StartCoroutine(ShowImage4(Show_time));
 
 
         }
