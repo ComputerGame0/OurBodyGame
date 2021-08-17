@@ -17,6 +17,7 @@ public class ClickOnLevel : MonoBehaviour
     [SerializeField] string sceneNameLevel7;
     [SerializeField] string sceneNameLevel8;
     [SerializeField] string sceneNameLevel9;
+    [SerializeField] string sceneNameLevel10;
 
 
     // Start is called before the first frame update
@@ -81,6 +82,11 @@ public class ClickOnLevel : MonoBehaviour
                 {
                     Debug.Log("level9click");
                     SceneManager.LoadScene(sceneNameLevel9);
+                }
+                if (hitInfo.collider.tag == "ToLevel10")
+                {
+                    Debug.Log("level9click");
+                    SceneManager.LoadScene(sceneNameLevel10);
                 }
 
 
