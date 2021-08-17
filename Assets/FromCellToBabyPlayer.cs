@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FromCellToBabyPlayer : MonoBehaviour
 {
+    [SerializeField] public GameObject One;
     [SerializeField] public GameObject[] Two = new GameObject[2];
     [SerializeField] public GameObject[] Three = new GameObject[4];
     [SerializeField] public GameObject[] Four = new GameObject[8];
@@ -29,6 +30,56 @@ public class FromCellToBabyPlayer : MonoBehaviour
             {
                 Two[i].GetComponent<Renderer>().enabled = true;
             }
+            One.GetComponent<Renderer>().enabled = false;
+
+        }
+        if (collision.tag == "two")
+        {
+            Debug.Log("two");
+            for (int i = 0; i < 4; i++)
+            {
+                Three[i].GetComponent<Renderer>().enabled = true;
+            }
+            for (int i = 0; i < 2; i++)
+            {
+                Two[i].GetComponent<Renderer>().enabled = false;
+            }
+
+        }
+        if (collision.tag == "three")
+        {
+
+            for (int i = 0; i < 8; i++)
+            {
+                Four[i].GetComponent<Renderer>().enabled = true;
+            }
+            for (int i = 0; i < 4; i++)
+            {
+                Three[i].GetComponent<Renderer>().enabled = false;
+            }
+
+        }
+        if (collision.tag == "four")
+        {
+            Debug.Log("Four");
+            for (int i = 0; i < 12; i++)
+            {
+                Five[i].GetComponent<Renderer>().enabled = true;
+            }
+            for (int i = 0; i < 8; i++)
+            {
+                Four[i].GetComponent<Renderer>().enabled = false;
+            }
+
+        }
+        if (collision.tag == "five")
+        {
+
+            for (int i = 0; i < 12; i++)
+            {
+                Five[i].GetComponent<Renderer>().enabled = false;
+            }          
+
         }
     }
 }
