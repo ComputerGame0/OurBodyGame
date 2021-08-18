@@ -32,6 +32,11 @@ TagManager:
   - three
   - four
   - five
+  - babyone
+  - babyOne
+  - babytwo
+  - babythree
+  - babyfour
   layers:
   - Default
   - TransparentFX

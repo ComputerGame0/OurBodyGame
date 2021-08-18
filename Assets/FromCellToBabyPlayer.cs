@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class FromCellToBabyPlayer : MonoBehaviour
 {
@@ -9,6 +11,12 @@ public class FromCellToBabyPlayer : MonoBehaviour
     [SerializeField] public GameObject[] Three = new GameObject[4];
     [SerializeField] public GameObject[] Four = new GameObject[8];
     [SerializeField] public GameObject[] Five = new GameObject[12];
+    [SerializeField] public GameObject babyOne;
+    [SerializeField] public GameObject babytwo;
+    [SerializeField] public GameObject babythree;
+    [SerializeField] public GameObject babyfour;
+    [SerializeField] string sceneName;
+
 
     // Start is called before the first frame update
     void Start()
@@ -78,7 +86,33 @@ public class FromCellToBabyPlayer : MonoBehaviour
             for (int i = 0; i < 12; i++)
             {
                 Five[i].GetComponent<Renderer>().enabled = false;
-            }          
+            }
+            babyOne.GetComponent<Renderer>().enabled = true;
+
+        }
+        if (collision.tag == "babyOne")
+        {
+            babyOne.GetComponent<Renderer>().enabled = false;
+            babytwo.GetComponent<Renderer>().enabled = true;
+        }
+        if (collision.tag == "babytwo")
+        {
+            babytwo.GetComponent<Renderer>().enabled = false;
+            babythree.GetComponent<Renderer>().enabled = true;
+
+        }
+        if (collision.tag == "babythree")
+        {
+            babyfour.GetComponent<Renderer>().enabled = true;
+            babythree.GetComponent<Renderer>().enabled = false;
+
+        }
+        if (collision.tag == "babyfour")
+        {
+            babyfour.GetComponent<Renderer>().enabled = false;
+            SceneManager.LoadScene(sceneName);
+
+
 
         }
     }
