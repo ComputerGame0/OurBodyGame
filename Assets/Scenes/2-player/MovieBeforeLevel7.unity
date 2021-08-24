@@ -318,8 +318,7 @@ VideoPlayer:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: "file://C:/Users/dalia/Desktop/Computer_Games/\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8
-    \u05D2\u05DE\u05E8/OurBodyGame/Assets/Movies/Ears_Level6.mp4"
+  m_Url: file://C:/Users/dalia/Desktop/Computer_Games/final project/OurBodyGame/Assets/Movies/eye.mp4
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1

@@ -21,7 +21,7 @@ public class Next_Level_DNA : MonoBehaviour
     {
         if (collision.tag == triggeringTag)
         {
-            if (Turn_around_DNA.count_DNA1 == -1 && Turn_around_DNA2.count_DNA2 == -1 && Turn_around_DNA3.count_DNA3 == -1)
+            if (Turn_around_DNA.count_DNA1 == -1 && Turn_around_DNA2.count_DNA2 == -1)
             {
                 SceneManager.LoadScene(sceneName);
             }

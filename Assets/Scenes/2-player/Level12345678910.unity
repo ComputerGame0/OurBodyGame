@@ -924,8 +924,8 @@ MonoBehaviour:
   sceneNameLevel6: Explain6
   sceneNameLevel7: Explain7
   sceneNameLevel8: Explain8
-  sceneNameLevel9: Level9
-  sceneNameLevel10: Level10
+  sceneNameLevel9: Explain9
+  sceneNameLevel10: Explain10
 --- !u!64 &1645442182
 MeshCollider:
   m_ObjectHideFlags: 0
