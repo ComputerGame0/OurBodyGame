@@ -1102,7 +1102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638c082139a8dc046868ecb2960de725, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: MovieBeforeLevel6
+  sceneName: Level6
   skip: {fileID: 2035033369}
   delay: 10
 --- !u!1 &2022111247
