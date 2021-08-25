@@ -4309,7 +4309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df8dcd47ac6cfd242852e51ac7e7e88b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Level123456789
+  sceneName: Level12345678910
 --- !u!4 &740635645
 Transform:
   m_ObjectHideFlags: 0
@@ -5206,7 +5206,7 @@ MonoBehaviour:
   game_over: {fileID: 1347062461}
   sceneName: Level9
   Show_time: 3
-  time: 35
+  time: 40
 --- !u!1001 &961916109
 PrefabInstance:
   m_ObjectHideFlags: 0
