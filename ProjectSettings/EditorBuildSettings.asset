@@ -44,9 +44,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/2-player/level2Summery.unity
     guid: c7b82bdb06d503e4aa005408fa503c92
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/2-player/Level123.unity
     guid: c8958b46155143e4ca5709a79a66c1c5
@@ -92,9 +89,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/2-player/Explain6.unity
     guid: 112686bf908112b46b5d60478da1366e
-  - enabled: 0
-    path: Assets/Scenes/2-player/MovieBeforeLevel6.unity
-    guid: e117bd4d9dc1c6044877436ca64938dd
   - enabled: 1
     path: Assets/Scenes/2-player/Level6.unity
     guid: 7a90d97cc48492e45ac2818f3440281a
@@ -107,9 +101,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/2-player/Explain7.unity
     guid: ab9aaa8c80c110e4ea2ccae6dee01e0c
-  - enabled: 0
-    path: Assets/Scenes/2-player/MovieBeforeLevel7.unity
-    guid: 11991d09641bd6d49987ed004c20f4ba
   - enabled: 1
     path: Assets/Scenes/2-player/Level7.unity
     guid: 5e48d58125ed1eb4db25048944cae39a
@@ -125,9 +116,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/2-player/Level8.unity
     guid: ca1a086ea3adce647b2bfeed8cfb5ce5
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/2-player/level8Summery.unity
     guid: 30f986019de93804299db9605e269d21
@@ -146,18 +134,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/2-player/Level12345678910.unity
     guid: 596668cd751ff02469b4b52d0c8d4ab9
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/2-player/Explain10.unity
     guid: ffea8c8fcde6fe44b840915b5a29228e
   - enabled: 1
     path: Assets/Scenes/2-player/Level10.unity
     guid: f137a930503448940b3ccf3fbd4e34bb
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/2-player/Finish.unity
     guid: 67cbe6d161d0ff84d908d2842e058dba
