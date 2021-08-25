@@ -36,7 +36,7 @@ Otherwise the player will start the level again <br />
 Example of the number of stars the player received: <br />
 <br />
  <br />
-![צילום מסך 2021-07-12 220859](https://user-images.githubusercontent.com/57682267/125342652-d29e8580-e35d-11eb-8465-fe25e7bd8652.png)
+![WhatsApp Image 2021-08-25 at 20 57 56](https://user-images.githubusercontent.com/57682267/130841761-246efd24-7bfd-484d-b57f-a3dcb6a4234b.jpeg)
 <br />
  <br />
   
